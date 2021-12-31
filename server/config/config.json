@@ -1,13 +1,13 @@
 {
     "development": {
         "PORT": 3000,
-        "MONGODB_URI":  "mongodb+srv://RahulThangamani:rahulT@83326@cluster0.ikwdt.mongodb.net/AngularProject?retryWrites=true&w=majority",
+        "MONGODB_URI":  "mongodb+srv://RahulThangamani:<PASSWORD>@cluster0.ikwdt.mongodb.net/AngularProject?retryWrites=true&w=majority",
         "JWT_SECRET": "SECRET#123",
         "JWT_EXP": "10m"
     },
     "production": {
         "PORT": 80,
-        "MONGODB_URI":  "mongodb+srv://RahulThangamani:rahulT@83326@cluster0.ikwdt.mongodb.net/AngularProject?retryWrites=true&w=majority",
+        "MONGODB_URI":  "mongodb+srv://RahulThangamani:<PASSWORD>@cluster0.ikwdt.mongodb.net/AngularProject?retryWrites=true&w=majority",
         "JWT_SECRET": "SECRET#123",
         "JWT_EXP": "2m"
     }
